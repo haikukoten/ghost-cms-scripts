@@ -5,12 +5,12 @@ import jwt
 import time
 
 # Ghost Admin API configuration
-API_URL = "https://yourwebsite.com/ghost/api/admin/"
-ADMIN_API_KEY = "admin-api"  # Replace with your actual Admin API key
+API_URL = "https://sacredhindu.com/ghost/api/admin/"
+ADMIN_API_KEY = "66cf3aa22fd6260249df98cb:85c76d4994f52ed095fd3a4c919933a35ee57f29c8830a24f798265702a85d2d"  # Replace with your actual Admin API key
 
 # Date range for deletion (inclusive)
-START_DATE = datetime(2023, 6, 25, tzinfo=timezone.utc)
-END_DATE = datetime(2023, 12, 4, tzinfo=timezone.utc)
+START_DATE = datetime(2023, 9, 8, tzinfo=timezone.utc)
+END_DATE = datetime(2023, 10, 29, tzinfo=timezone.utc)
 
 # Helper function to generate JWT token
 def generate_token():

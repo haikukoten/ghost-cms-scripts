@@ -3,8 +3,8 @@ import jwt
 import datetime
 
 # Configuration
-api_url = "https://yourwebsite.com/ghost/api/admin"
-admin_api_key = "admin-api"
+api_url = "https://sacredhindu.com/ghost/api/admin/"
+admin_api_key = "66cf3aa22fd6260249df98cb:85c76d4994f52ed095fd3a4c919933a35ee57f29c8830a24f798265702a85d2d"
 
 # Function to generate the JWT token
 def create_jwt_token():
